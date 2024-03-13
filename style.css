@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background-color: #f1f1f1;
+    font-family: "Roboto", sans-serif;
+    color: #0f141e;
+    font-size: 16px;
+    font-weight: normal;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.ssylk a:hover{
+    color: #EFECE7;
+}
+.opisanie a:hover{
+    color: #6E7F91;
+}
+.avatar{
+    width: 250px;
+    border-radius: 4% ;
+    box-shadow: 4px 4px 14px rgb(0, 0, 0,25);
+}
+.opisanie h4{
+    margin-bottom: 6px;
+}
+.info{
+    display: flex;
+    margin-bottom: 20px;
+}
+.info p{
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+
+}
+.opisanie{
+    margin-left: 40px;
+}
+.container{
+    max-width: 750px;
+    margin: auto;
+}
+.bg-grey
+{
+    background: #CDCAC5;
+}
+.bg-white
+{
+    background: #EFECE7;
+}
+.bg-blue
+{
+    background: #6E7F91;
+}
+.bg-gru
+{
+    background: #394C60;
+}
+.card{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.card h2{
+
+    margin-bottom: 10px;
+}
+.list
+{
+    padding: 0 20px;
+}
+.list li{
+    margin-bottom: 10px;
+}
+.sold{
+    width: 100%;
+
+}
+.sold td{
+    padding-bottom: 5px;
+}
+.tablet {
+    color: #CDCAC5;
+}
+.mark{
+    padding-bottom: 5px;
+}
+.profil{
+    margin-left: -15px;
+}
+.contact h2{
+    text-align: center;
+
+}
+.temp{
+    text-align: center;
+}
+.form-group label
+{
+    display: block;
+}
+.form-group input, .form-group textarea
+{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 3px solid #ccc;
+    display: block;
+    color: #000;
+    padding: 10px 0 5px;
+    outline: none;
+    font-family: inherit;
+    background: transparent;
+}
+.cta {
+    position: relative;
+    margin: auto;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #CDCAC5;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+  }
+  
+  .cta span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #234567;
+  }
+  
+  .cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #234567;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+  }
+  
+  .cta:hover:before {
+    width: 100%;
+    background: #CDCAC5;
+  }
+  
+  .cta:hover svg {
+    transform: translateX(0);
+  }
+  
+  .cta:active {
+    transform: scale(0.95);
+  }
